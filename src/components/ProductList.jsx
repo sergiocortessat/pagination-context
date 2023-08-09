@@ -8,10 +8,8 @@ const ProductList = ({ products, changeLocation }) => {
         {products.map((product) => (
           <li key={product.id}>
             <a
-            href={"/"}
               className="link"
-              onClick={() => changeLocation("view", { id: product.id })
-            }
+              onClick={() => changeLocation("view", { id: product.id })}
             >
               {product.title}
             </a>

@@ -21,7 +21,7 @@ const ViewProduct = ({ id }) => {
       <div>Price: {changeCurrency}</div>
       <div>Description: {data.description}</div>
       <div>
-        <img src={data.thumbnail} alt={data.category}/>
+        <img src={data.thumbnail} alt={data.category} />
       </div>
     </>
   );

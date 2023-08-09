@@ -33,7 +33,10 @@ const ListProducts = ({ changeLocation }) => {
 
   return (
     <div>
-      <ProductList products={currentPageItems} changeLocation={changeLocation} />
+      <ProductList
+        products={currentPageItems}
+        changeLocation={changeLocation}
+      />
       <Pagination
         currentPage={currentPage}
         totalPages={totalPages}

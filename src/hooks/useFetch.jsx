@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const useFetch = (url, method) => {
   const [state, setState] = useState({
     data: null,
     loading: true,
-    error: ''
+    error: "",
   });
 
   useEffect(() => {
@@ -14,18 +14,18 @@ const useFetch = (url, method) => {
         setState({
           data: null,
           loading: false,
-          error: 'An error occurred'
+          error: "An error occurred",
         });
       }
       let data = await response.json();
       setState({
         data,
         loading: false,
-        error: ''
+        error: "",
       });
     })();
-  }, [url, method])
+  }, [url, method]);
   return state;
-}
+};
 
 export default useFetch;
