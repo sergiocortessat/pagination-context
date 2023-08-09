@@ -2,7 +2,11 @@
 
 You can check this project live at [here](https://pagination-context.vercel.app/)
 
-[![name](ScreenShot.png)](https://pagination-context.vercel.app/)
+## Screenshot Test
+
+<p align="center">
+  <img height="auto" src="Screenshot2.png">
+</p>
 
 ## Available Scripts
 
