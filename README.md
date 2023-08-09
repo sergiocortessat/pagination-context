@@ -5,7 +5,7 @@ You can check this project live at [here](https://pagination-context.vercel.app/
 ## Screenshot Test
 
 <p align="center">
-  <img height="auto" src="Screenshot2.png">
+  <img height="auto" src="Screenshot.png">
 </p>
 
 ## Available Scripts
