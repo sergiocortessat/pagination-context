@@ -7,7 +7,7 @@ export const useLocation = () => {
 };
 
 export const LocationProvider = ({ children }) => {
-  const [location, setLocation] = useState({ page: "view", params: { id: 1 } });
+  const [location, setLocation] = useState({ page: "list", params: { id: 1 } });
 
   const changeLocation = useCallback((page, params) => {
     setLocation({ page, params: params || {} });
