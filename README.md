@@ -2,7 +2,7 @@
 
 You can check this project live at [here](https://pagination-context.vercel.app/)
 
-[![name](/src/ScreenShot.png)](https://pagination-context.vercel.app/)
+[![name](ScreenShot.png)](https://pagination-context.vercel.app/)
 
 ## Available Scripts
 
